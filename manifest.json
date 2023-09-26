@@ -1,0 +1,16 @@
+{
+	"name": "LARAVEL APP",
+	"short_name": "MyFPWA",
+	"description": "Christian Reyes",
+	"background_color": "#002F65",
+	"theme_color": "#C3A204",
+	"orientation": "portrait",
+	"display": "standalone",
+	"start_url": "./app-laravel-10-cuatri?utm_source=web_app_manifest",
+	"scope": "./",
+	"lang": "es-MX",
+	"icons": [
+		
+	   ]
+}
+
