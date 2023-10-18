@@ -28,6 +28,7 @@ Route::get('/dashboard', function () {
 
 require __DIR__.'/auth.php';
 
+Route::get('/estados/getEstados', [EstadoController::class, 'getEstados']);
 Route::resource('/estados', EstadoController::class);
 Route::resource('/confirmados', ConfirmadosController::class);
 Route::resource('/negativos', NegativosController::class);
